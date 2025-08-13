@@ -4,13 +4,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-    Chatbot.init({
-        chatflowid: "cbfd43f0-df96-4cb5-baf9-aa6a2491683d",
-        apiHost: "http://localhost:3000",
-    })
-</script>
   <title>Chatbot Layout</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -31,7 +24,13 @@
       </nav>
     </div>
   </header>
-
+    <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "cbfd43f0-df96-4cb5-baf9-aa6a2491683d",
+        apiHost: "http://localhost:3000",
+    })
+</script>
   <footer class="site-footer">
     <div class="container footer-top">
       <div class="footer-grid">
